@@ -1,0 +1,44 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+    transform: translate(100%, 15%);
+    max-width: 326px;
+    height: 100vh;
+    background-color: tomato;
+}
+
+section {
+    margin-right: 17px;
+}
+
+.flex {
+    width: 370px;
+    background-color: turquoise;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.flex .add, .thumb {
+    background-color: #C4C4C4;
+}
+
+.flex .thumb{
+    width: 101px;
+    height: 71px;
+}
+
+.flex .add {
+    text-align: center;
+    line-height: 56px;
+    font-size: 11px;
+    width: 270px;
+    height: 56px;
+    margin-bottom: 15px;
+}
+
+.time {
+    margin-bottom: 15px;
+}
+
+

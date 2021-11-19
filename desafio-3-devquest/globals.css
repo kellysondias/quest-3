@@ -1,0 +1,26 @@
+html {
+    background-color: 
+    #F7F7F7;
+    max-width: 1440px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0 7px;
+}
+
+h2,p {
+    font-weight: 300;
+    font-size: 11px;
+}
+
+p {
+    margin-bottom: 7px;
+}
+

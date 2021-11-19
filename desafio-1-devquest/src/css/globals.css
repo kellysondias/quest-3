@@ -1,0 +1,13 @@
+* {
+    text-decoration: none;
+    color: black;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+li::marker {
+    font-size: 0;
+}
+
+
+
