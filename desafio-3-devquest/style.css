@@ -1,3 +1,7 @@
+img {
+    margin-bottom: 10px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -5,30 +9,35 @@
     transform: translate(100%, 15%);
     max-width: 326px;
     height: 100vh;
-    background-color: tomato;
+    column-gap: 17px;
 }
 
-section {
-    margin-right: 17px;
-}
-
-.flex {
+.grid .flex {
     width: 370px;
-    background-color: turquoise;
     display: flex;
     flex-flow: column wrap;
 }
 
-.flex .add, .thumb {
+.grid .flex .video {
+    display: flex;
+    
+}
+
+.grid .flex .video h1 {
+    flex-shrink: 0;
+}
+
+.grid .flex .add, 
+.grid .flex .video .thumb {
     background-color: #C4C4C4;
 }
 
-.flex .thumb{
+.grid .flex .video .thumb{
     width: 101px;
     height: 71px;
 }
 
-.flex .add {
+.grid .flex .add {
     text-align: center;
     line-height: 56px;
     font-size: 11px;
@@ -37,7 +46,7 @@ section {
     margin-bottom: 15px;
 }
 
-.time {
+.grid .flex .video .time {
     margin-bottom: 15px;
 }
 
